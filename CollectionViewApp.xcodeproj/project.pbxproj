@@ -16,6 +16,8 @@
 		D4AF7E5024B13E3500FCB04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AF7E4E24B13E3500FCB04D /* LaunchScreen.storyboard */; };
 		D4AF7E5B24B13E3600FCB04D /* CollectionViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7E5A24B13E3600FCB04D /* CollectionViewAppTests.swift */; };
 		D4AF7E6624B13E3600FCB04D /* CollectionViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7E6524B13E3600FCB04D /* CollectionViewAppUITests.swift */; };
+		D4AF7E7424B6D18700FCB04D /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7E7324B6D18700FCB04D /* ProfileHeader.swift */; };
+		D4AF7E7624B7B02400FCB04D /* Profile_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7E7524B7B02400FCB04D /* Profile_Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D4AF7E6124B13E3600FCB04D /* CollectionViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AF7E6524B13E3600FCB04D /* CollectionViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewAppUITests.swift; sourceTree = "<group>"; };
 		D4AF7E6724B13E3600FCB04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AF7E7324B6D18700FCB04D /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		D4AF7E7524B7B02400FCB04D /* Profile_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile_Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				D4AF7E4E24B13E3500FCB04D /* LaunchScreen.storyboard */,
 				D4AF7E5124B13E3500FCB04D /* Info.plist */,
 				D4AF7E4924B13E3100FCB04D /* CollectionViewApp.xcdatamodeld */,
+				D4AF7E7324B6D18700FCB04D /* ProfileHeader.swift */,
+				D4AF7E7524B7B02400FCB04D /* Profile_Cell.swift */,
 			);
 			path = CollectionViewApp;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				D4AF7E4524B13E3100FCB04D /* ViewController.swift in Sources */,
 				D4AF7E4124B13E3100FCB04D /* AppDelegate.swift in Sources */,
 				D4AF7E4B24B13E3100FCB04D /* CollectionViewApp.xcdatamodeld in Sources */,
+				D4AF7E7624B7B02400FCB04D /* Profile_Cell.swift in Sources */,
+				D4AF7E7424B6D18700FCB04D /* ProfileHeader.swift in Sources */,
 				D4AF7E4324B13E3100FCB04D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

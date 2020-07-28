@@ -11,11 +11,20 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //since we change our viewCOntroller to UIViewCollection, we need to set the root view and let our app know about our main window
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        let layout_1 = UICollectionViewFlowLayout()
+        window?.rootViewController = ViewController(collectionViewLayout: layout_1)
+        
+        
+        
         return true
     }
 
